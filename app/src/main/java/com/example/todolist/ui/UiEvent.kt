@@ -1,6 +1,5 @@
 package com.example.todolist.ui
 
-import com.example.todolist.navigation.AddEditRoute
 
 sealed interface UiEvent {
     data class showSnackbar(val message: String) : UiEvent
